@@ -169,19 +169,33 @@ export default function Admin() {
 						</div>
 
 						{/* Right: Preview */}
-						<aside className="rounded-xl bg-white p-4 shadow sm:p-6">
-							<h2 className="mb-2 text-sm font-medium text-gray-800">
-								Current Config
-							</h2>
-							<pre className="rounded-md bg-gray-50 p-3 text-xs text-gray-800 overflow-auto">
-								{JSON.stringify(config, null, 2)}
-							</pre>
-							{savedAt && (
-								<p className="mt-3 text-xs text-green-700">
-									Saved {savedAt.toLocaleTimeString()} 
-								</p>
-							)}
-						</aside>
+<aside className="rounded-xl bg-white p-4 shadow sm:p-6">
+  <h2 className="mb-2 text-sm font-medium text-gray-800">
+    Current Config
+  </h2>
+
+  <div className="rounded-md bg-gray-50 p-3 text-xs text-gray-800 space-y-2">
+    <p>
+      <strong>Page 2 Components:</strong>{" "}
+      {config.page2Components && config.page2Components.length > 0
+        ? config.page2Components.join(", ")
+        : "None"}
+    </p>
+    <p>
+      <strong>Page 3 Components:</strong>{" "}
+      {config.page3Components && config.page3Components.length > 0
+        ? config.page3Components.join(", ")
+        : "None"}
+    </p>
+  </div>
+
+  {savedAt && (
+    <p className="mt-3 text-xs text-green-700">
+      Saved {savedAt.toLocaleTimeString()} 
+    </p>
+  )}
+</aside>
+
 					</div>
 				</div>
 			</div>
