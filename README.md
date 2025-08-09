@@ -99,4 +99,5 @@ Follow these steps to deploy the project to **Render**:
 
 # Author
 Developed by **Shruthi Nandakumar**
-Contact: shruthin2912@gmail.com
+Email: shruthi.n@themailpad.com
+Contact: +1 314 305 6675
