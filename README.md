@@ -97,7 +97,8 @@ Follow these steps to deploy the project to **Render**:
      - **Backend URL:** Provided by Render after deployment.
      - **Frontend URL:** Provided by Render after deployment.
 
-# Author
-Developed by **Shruthi Nandakumar**
-Email: shruthi.n@themailpad.com
-Contact: +1 314 305 6675
+## Author
+**Shruthi Nandakumar**  
+Email: [shruthi.n@themailpad.com](mailto:shruthi.n@themailpad.com)  
+Contact: +1 314-305-6675
+
