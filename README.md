@@ -25,11 +25,13 @@ Includes a responsive multi-step onboarding wizard, admin panel for configuratio
 ```bash
 git clone https://github.com/snandakumar2912/Zealthy-Custom-Onboarding-Flow.git
 cd Zealthy-Custom-Onboarding-Flow
+```
 
 ### 2. Backend Setup
 ```bash
 cd backend
 npm install
+```
 
 Create a .env file in the backend folder:
 PORT=4000
@@ -38,6 +40,7 @@ NODE_ENV=development
 
 ```bash
 npm start
+```
 
 Backend will be live at: http://localhost:4000
 
@@ -45,12 +48,14 @@ Backend will be live at: http://localhost:4000
 ```bash
 cd frontend
 npm install
+```
 
 Create a .env file in the frontend folder:
 VITE_API_BASE_URL=http://localhost:4000
 
 ```bash
 npm run dev
+```
 
 Frontend will be live at: http://localhost:5173
 
@@ -88,6 +93,6 @@ Follow these steps to deploy the project to **Render**:
      - **Backend URL:** Provided by Render after deployment.
      - **Frontend URL:** Provided by Render after deployment.
 
- Author
-Developed by Shruthi Nandakumar
+# Author
+Developed by **Shruthi Nandakumar**
 Contact: shruthin2912@gmail.com
