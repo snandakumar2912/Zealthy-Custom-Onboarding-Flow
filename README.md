@@ -34,9 +34,11 @@ npm install
 ```
 
 Create a .env file in the backend folder:
+```bash
 PORT=4000
 MONGO_URI=your-mongodb-atlas-uri
 NODE_ENV=development
+```
 
 ```bash
 npm start
@@ -51,7 +53,9 @@ npm install
 ```
 
 Create a .env file in the frontend folder:
+```bash
 VITE_API_BASE_URL=http://localhost:4000
+```
 
 ```bash
 npm run dev
