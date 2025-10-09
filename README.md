@@ -1,11 +1,11 @@
-# Zealthy — Full Stack App (React + Node.js + MongoDB)
+# Full Stack App (React + Node.js + MongoDB)
 
 A full-stack web application built with **React**, **Node.js**, **Express**, and **MongoDB** using **Mongoose** as the ORM.  
 Includes a responsive multi-step onboarding wizard, admin panel for configuration, and a data view — all fully connected to a backend API.
 
 ---
 ##  Live Demo
-[**Zealthy Custom Onboarding Flow**](https://zealthy-custom-onboarding-flow.onrender.com/)
+[**Custom Onboarding Flow**](https://zealthy-custom-onboarding-flow.onrender.com/)
 
 ---
 
@@ -99,6 +99,6 @@ Follow these steps to deploy the project to **Render**:
 
 ## Author
 **Shruthi Nandakumar**  
-Email: [shruthi.n@themailpad.com](mailto:shruthi.n@themailpad.com)  
+Email: [shruthin2912@gmail.com](mailto:shruthin2912@gmail.com)  
 Contact: +1 314-305-6675
 
