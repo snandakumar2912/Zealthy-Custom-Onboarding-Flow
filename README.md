@@ -100,5 +100,4 @@ Follow these steps to deploy the project to **Render**:
 ## Author
 **Shruthi Nandakumar**  
 Email: [shruthin2912@gmail.com](mailto:shruthin2912@gmail.com)  
-Contact: +1 314-305-6675
 
